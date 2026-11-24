@@ -1,0 +1,293 @@
+{
+  "updated_at": "2026-11-24",
+  "source_url": "https://zhuanlan.zhihu.com/p/2102075021984280587",
+  "source_note": "依据 Echo Xu 在对话中提供的原帖正文整理，未独立核验实时在招状态。",
+  "careers_url": "https://www.nvidia.com/en-us/about-nvidia/careers/",
+  "contact": {
+    "name": "Echo Xu",
+    "email": "echox@nvidia.com"
+  },
+  "categories": [
+    {
+      "id": "gpu-performance",
+      "name": "GPU / Performance / Profiling",
+      "audience": "适合对 GPU、性能分析、AI workload、系统瓶颈定位、软硬件协同优化感兴趣的同学。"
+    },
+    {
+      "id": "compiler",
+      "name": "Compiler / LLVM / Deep Learning Compiler",
+      "audience": "适合对编译器、LLVM、深度学习编译器、代码生成、编译优化、工具链基础设施感兴趣的同学。"
+    },
+    {
+      "id": "automation",
+      "name": "Automation Infrastructure / Engineering Productivity",
+      "audience": "适合对自动化平台、测试基础设施、CI/CD、工程效率、系统化工具建设感兴趣的同学。"
+    },
+    {
+      "id": "system-software",
+      "name": "CPU / System Software",
+      "audience": "适合对 CPU、系统软件、平台软件、Linux、底层性能、软硬件协同感兴趣的同学。"
+    },
+    {
+      "id": "autonomous-vehicles",
+      "name": "自动驾驶 / Planning / Control / Fusion",
+      "audience": "适合对自动驾驶、感知融合、规划控制、系统集成、多车适配、复杂场景理解感兴趣的同学。"
+    },
+    {
+      "id": "solutions",
+      "name": "Solutions Architect / Financial Services",
+      "audience": "适合既懂技术，又喜欢与客户和真实业务场景结合的同学。"
+    }
+  ],
+  "roles": [
+    {
+      "id": "JR2021807",
+      "title": "Deep Learning Performance Architect",
+      "category": "gpu-performance",
+      "locations": [
+        "上海"
+      ],
+      "keywords": [
+        "GPU",
+        "AI Performance",
+        "Deep Learning",
+        "Computer Architecture"
+      ],
+      "work": "分析不同 GPU 与系统架构上的深度学习负载性能，定位软硬件瓶颈，并探索新特性和系统配置，以提升模型训练与推理的性能和能效。",
+      "background": "有计算机体系结构、系统架构或性能优化背景，熟悉 GPU / accelerator 上的深度学习平台和软件栈，也理解机器学习和深度学习框架。",
+      "fit": "喜欢从系统视角拆解性能问题：不仅看模型怎么跑，也关心瓶颈到底在硬件、kernel、framework 还是系统配置。"
+    },
+    {
+      "id": "JR2016747",
+      "title": "GPU Profiling Software Engineer",
+      "category": "gpu-performance",
+      "locations": [
+        "上海"
+      ],
+      "keywords": [
+        "GPU",
+        "CUDA",
+        "Profiling",
+        "Linux",
+        "System Software"
+      ],
+      "work": "参与 GPU Profiling 相关软件工具和系统能力建设，帮助开发者分析 GPU workload 的执行行为、性能瓶颈和优化空间。",
+      "background": "有扎实的软件开发能力，熟悉系统软件、性能分析、debugging / profiling 工具链。如果你有 GPU、CUDA、Linux、driver/runtime 或底层性能优化经验，会非常匹配。",
+      "fit": "对 GPU 底层运行机制、性能指标、profiling 工具和开发者体验感兴趣。你做的工具会影响工程团队分析和优化 GPU workload 的效率。"
+    },
+    {
+      "id": "JR2027824",
+      "title": "System Software Architect, AI Hardware and Software Performance",
+      "category": "gpu-performance",
+      "locations": [
+        "上海"
+      ],
+      "keywords": [
+        "System Architecture",
+        "AI Performance",
+        "GPU",
+        "AI Infrastructure"
+      ],
+      "work": "围绕 AI 硬件与软件栈的性能做系统级分析和架构设计，识别性能瓶颈，并推动硬件、软件和 AI workload 之间更高效地协同。",
+      "background": "有系统软件、性能优化、计算机体系结构或 AI infrastructure 背景，理解 GPU / accelerator 平台、AI workload、软件栈和性能分析方法。",
+      "fit": "关心系统为什么这样跑、瓶颈在哪里、下一代架构该怎么优化。这个岗位视角更高，影响也更偏平台级。"
+    },
+    {
+      "id": "JR2020326",
+      "title": "Deep Learning Compiler CI and Infrastructure Engineer",
+      "category": "compiler",
+      "locations": [
+        "上海",
+        "深圳"
+      ],
+      "keywords": [
+        "CI/CD",
+        "Linux",
+        "Python",
+        "C++",
+        "Compiler Infrastructure"
+      ],
+      "work": "参与 Deep Learning Compiler 相关 CI/CD 和基础设施建设，提升编译器团队在开发、测试、验证、构建和发布过程中的效率与稳定性。",
+      "background": "有良好的软件工程基础，熟悉 Linux、自动化测试、CI/CD、构建系统、Python / C++ 等。了解 compiler、deep learning framework 或 GPU software stack 会是加分项。",
+      "fit": "喜欢把复杂工程系统变得更稳定、更自动化、更高效。岗位服务于深度学习编译器团队，能积累 compiler + engineering productivity 的复合经验。"
+    },
+    {
+      "id": "JR2028806",
+      "title": "Senior LLVM Compiler Engineer",
+      "category": "compiler",
+      "locations": [
+        "上海"
+      ],
+      "keywords": [
+        "LLVM",
+        "C/C++",
+        "IR",
+        "Backend",
+        "Code Generation"
+      ],
+      "work": "参与 LLVM Compiler 相关开发与优化，支持 NVIDIA 软件栈中的编译器能力建设，包括编译优化、代码生成、工具链演进，以及与 AI / GPU / 加速计算平台相关的底层软件工作。",
+      "background": "有扎实的 compiler 基础，熟悉 LLVM、C/C++、IR、backend、code generation 或相关工具链开发。有 GPU compiler、accelerator compiler 或 HPC 经验会是加分项。",
+      "fit": "热爱 compiler，希望长期深耕底层技术。这个方向技术门槛高，长期影响力也很强。"
+    },
+    {
+      "id": "JR2022807",
+      "title": "Senior Software Engineer, Automation Infrastructure",
+      "category": "automation",
+      "locations": [
+        "上海"
+      ],
+      "keywords": [
+        "Automation",
+        "CI/CD",
+        "Python",
+        "C++",
+        "AI Agent",
+        "Infrastructure"
+      ],
+      "work": "参与自动化基础设施相关软件开发，建设和优化面向工程团队的 automation platform / infrastructure，提升开发、测试、验证和交付流程的效率与稳定性。",
+      "background": "有扎实的软件工程能力，熟悉 Linux、Python / C++、自动化工具、CI/CD、测试框架或基础设施平台开发，擅长利用 AI Agent。有 GPU 软件栈、系统软件、性能测试或大规模工程基础设施经验会是加分项。",
+      "fit": "喜欢把重复、复杂、低效的工程流程变得自动化、平台化、可扩展。你的工作会直接提升多个工程团队的研发效率。"
+    },
+    {
+      "id": "JR2025929",
+      "title": "Senior System Software Engineer, CPU",
+      "category": "system-software",
+      "locations": [
+        "深圳",
+        "上海"
+      ],
+      "keywords": [
+        "CPU",
+        "C/C++",
+        "Linux",
+        "SoC",
+        "System Software"
+      ],
+      "work": "参与 CPU 相关系统软件开发与优化，围绕底层软件、平台能力、性能和系统稳定性开展工程工作。",
+      "background": "有系统软件背景，熟悉 C/C++、Linux、计算机体系结构、CPU / SoC / platform software 等方向。有性能优化、底层调试或硬件平台相关经验会是加分项。",
+      "fit": "喜欢系统底层、平台软件、性能和架构问题，希望在软硬件协同环境中做更底层的系统软件工作。"
+    },
+    {
+      "id": "JR2022055",
+      "title": "Senior Perception Fusion Engineer - Autonomous Vehicles",
+      "category": "autonomous-vehicles",
+      "locations": [
+        "上海",
+        "北京"
+      ],
+      "keywords": [
+        "Perception",
+        "Sensor Fusion",
+        "Computer Vision",
+        "Autonomous Driving"
+      ],
+      "work": "参与自动驾驶感知融合相关技术研发，包括多传感器信息处理、感知算法优化、系统集成与真实场景验证等工作。",
+      "background": "有机器学习、计算机视觉、传感器融合、自动驾驶算法或相关工程背景，熟悉深度学习框架和常见感知任务。有量产、系统集成或大规模验证经验会是加分项。",
+      "fit": "既懂算法，又愿意把算法推进到真实系统里。这个方向技术挑战高，也更接近自动驾驶平台的核心能力建设。"
+    },
+    {
+      "id": "JR2024605",
+      "title": "Senior Software Engineer, Planning and Control Integration – Autonomous Vehicles",
+      "category": "autonomous-vehicles",
+      "locations": [
+        "北京",
+        "上海"
+      ],
+      "keywords": [
+        "C++",
+        "Linux",
+        "Planning",
+        "Control",
+        "System Integration"
+      ],
+      "work": "参与自动驾驶 Planning and Control 相关系统集成与软件开发，推动规划、控制及相关模块在自动驾驶平台中的工程化落地和持续优化。",
+      "background": "有扎实的软件工程能力，熟悉 C++、Linux、系统集成、自动驾驶软件栈。了解 planning、control、robotics 或 vehicle systems 会是加分项。",
+      "fit": "希望参与自动驾驶系统工程、模块集成和复杂系统协作，喜欢把算法能力真正跑在平台和车辆系统里。"
+    },
+    {
+      "id": "JR2022050",
+      "title": "Senior Software Engineer, Context Fusion and Multi-Vehicle Adaptation - Autonomous Vehicles",
+      "category": "autonomous-vehicles",
+      "locations": [
+        "上海",
+        "北京"
+      ],
+      "keywords": [
+        "C++",
+        "Linux",
+        "Context Fusion",
+        "Multi-Vehicle Adaptation",
+        "System Integration"
+      ],
+      "work": "参与自动驾驶 Context Fusion 和 Multi-Vehicle Adaptation 相关的软件开发与系统工程工作，围绕复杂驾驶场景中的上下文理解、多源信息融合、多车型 / 多平台适配等问题，推动自动驾驶能力在真实系统中的落地和优化。",
+      "background": "有扎实的软件工程能力，熟悉 C++、Linux、自动驾驶软件栈、感知 / 融合 / 系统集成等相关方向。有 robotics、autonomous driving、multi-sensor fusion 或复杂系统工程经验会是加分项。",
+      "fit": "对复杂场景理解、多车适配、上下文信息融合和系统级工程挑战感兴趣。"
+    },
+    {
+      "id": "JR2024033",
+      "title": "Solutions Architect - Financial Services",
+      "category": "solutions",
+      "locations": [
+        "北京",
+        "上海"
+      ],
+      "keywords": [
+        "Solutions Architecture",
+        "AI",
+        "HPC",
+        "Cloud",
+        "Financial Services"
+      ],
+      "work": "面向金融行业客户，结合 NVIDIA 的 AI、加速计算和行业解决方案，理解客户业务与技术需求，提供架构设计、技术方案和落地支持。",
+      "background": "有解决方案架构、AI / HPC / 数据中心 / 云计算等相关背景，具备客户沟通、技术方案设计和跨团队协作能力。有金融行业技术经验会是加分项。",
+      "fit": "既能深入技术，又愿意和客户一起把 AI / accelerated computing 能力落到真实业务场景里。这个岗位连接技术、客户和行业生态，影响范围会比较广。"
+    }
+  ],
+  "skill_matching": [
+    {
+      "skillset": "GPU / CUDA / 性能优化",
+      "role_ids": [
+        "JR2016747",
+        "JR2021807",
+        "JR2027824"
+      ]
+    },
+    {
+      "skillset": "Compiler / LLVM / Toolchain",
+      "role_ids": [
+        "JR2020326",
+        "JR2028806"
+      ]
+    },
+    {
+      "skillset": "CI/CD / Automation / Infrastructure",
+      "role_ids": [
+        "JR2022807",
+        "JR2020326"
+      ]
+    },
+    {
+      "skillset": "System Software / CPU / Linux",
+      "role_ids": [
+        "JR2025929",
+        "JR2016747",
+        "JR2027824",
+        "JR2022807"
+      ]
+    },
+    {
+      "skillset": "自动驾驶 / 感知融合 / 规划控制",
+      "role_ids": [
+        "JR2022055",
+        "JR2024605",
+        "JR2022050"
+      ]
+    },
+    {
+      "skillset": "Solutions Architecture / AI 行业方案 / 金融行业",
+      "role_ids": [
+        "JR2024033"
+      ]
+    }
+  ]
+}
