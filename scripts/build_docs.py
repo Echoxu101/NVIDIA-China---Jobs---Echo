@@ -123,4 +123,4 @@ if __name__ == '__main__':
     for path, content in render().items():
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(content, encoding='utf-8')
-    print('Generated README, 11 role pages and city index.')
+    print('Generated README, role pages and city index.')

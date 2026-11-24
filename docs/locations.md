@@ -4,7 +4,7 @@
 
 多地点岗位会同时出现在对应城市下。
 
-## 上海（11 个）
+## 上海（10 个）
 
 | 职位 ID | 岗位 | 地点 |
 | --- | --- | --- |
@@ -13,7 +13,6 @@
 | [JR2027824](../roles/JR2027824.md) | System Software Architect, AI Hardware and Software Performance | 上海 |
 | [JR2020326](../roles/JR2020326.md) | Deep Learning Compiler CI and Infrastructure Engineer | 上海 / 深圳 |
 | [JR2028806](../roles/JR2028806.md) | Senior LLVM Compiler Engineer | 上海 |
-| [JR2022807](../roles/JR2022807.md) | Senior Software Engineer, Automation Infrastructure | 上海 |
 | [JR2025929](../roles/JR2025929.md) | Senior System Software Engineer, CPU | 深圳 / 上海 |
 | [JR2022055](../roles/JR2022055.md) | Senior Perception Fusion Engineer - Autonomous Vehicles | 上海 / 北京 |
 | [JR2024605](../roles/JR2024605.md) | Senior Software Engineer, Planning and Control Integration – Autonomous Vehicles | 北京 / 上海 |

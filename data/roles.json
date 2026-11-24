@@ -19,11 +19,6 @@
       "audience": "适合对编译器、LLVM、深度学习编译器、代码生成、编译优化、工具链基础设施感兴趣的同学。"
     },
     {
-      "id": "automation",
-      "name": "Automation Infrastructure / Engineering Productivity",
-      "audience": "适合对自动化平台、测试基础设施、CI/CD、工程效率、系统化工具建设感兴趣的同学。"
-    },
-    {
       "id": "system-software",
       "name": "CPU / System Software",
       "audience": "适合对 CPU、系统软件、平台软件、Linux、底层性能、软硬件协同感兴趣的同学。"
@@ -128,25 +123,6 @@
       "work": "参与 LLVM Compiler 相关开发与优化，支持 NVIDIA 软件栈中的编译器能力建设，包括编译优化、代码生成、工具链演进，以及与 AI / GPU / 加速计算平台相关的底层软件工作。",
       "background": "有扎实的 compiler 基础，熟悉 LLVM、C/C++、IR、backend、code generation 或相关工具链开发。有 GPU compiler、accelerator compiler 或 HPC 经验会是加分项。",
       "fit": "热爱 compiler，希望长期深耕底层技术。这个方向技术门槛高，长期影响力也很强。"
-    },
-    {
-      "id": "JR2022807",
-      "title": "Senior Software Engineer, Automation Infrastructure",
-      "category": "automation",
-      "locations": [
-        "上海"
-      ],
-      "keywords": [
-        "Automation",
-        "CI/CD",
-        "Python",
-        "C++",
-        "AI Agent",
-        "Infrastructure"
-      ],
-      "work": "参与自动化基础设施相关软件开发，建设和优化面向工程团队的 automation platform / infrastructure，提升开发、测试、验证和交付流程的效率与稳定性。",
-      "background": "有扎实的软件工程能力，熟悉 Linux、Python / C++、自动化工具、CI/CD、测试框架或基础设施平台开发，擅长利用 AI Agent。有 GPU 软件栈、系统软件、性能测试或大规模工程基础设施经验会是加分项。",
-      "fit": "喜欢把重复、复杂、低效的工程流程变得自动化、平台化、可扩展。你的工作会直接提升多个工程团队的研发效率。"
     },
     {
       "id": "JR2025929",
@@ -262,7 +238,6 @@
     {
       "skillset": "CI/CD / Automation / Infrastructure",
       "role_ids": [
-        "JR2022807",
         "JR2020326"
       ]
     },
@@ -271,8 +246,7 @@
       "role_ids": [
         "JR2025929",
         "JR2016747",
-        "JR2027824",
-        "JR2022807"
+        "JR2027824"
       ]
     },
     {
