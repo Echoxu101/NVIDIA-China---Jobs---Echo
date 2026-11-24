@@ -29,7 +29,7 @@ GPU · AI Performance · Profiling · Compiler · LLVM · Infrastructure · Syst
 
 这些机会涉及硬件、系统软件、AI workload、编译器、自动驾驶平台和真实业务场景的交叉地带，适合希望深入技术、参与平台和系统建设的同学。
 
-> 整理日期：{data['updated_at']}。内容来自 Echo Xu 提供的[招聘帖子]({data['source_url']})，属于岗位导读；岗位是否开放、完整要求与地点以 [NVIDIA Careers]({data['careers_url']}) 当前信息为准。本仓库不是 NVIDIA 官方招聘网站。
+> 整理日期：{data['updated_at']}。内容依据 Echo Xu 提供的[招聘帖子]({data['source_url']})及新增岗位的 NVIDIA Careers 官方 JD 整理，属于岗位导读；岗位是否开放、完整要求与地点以 [NVIDIA Careers]({data['careers_url']}) 当前信息为准。本仓库不是 NVIDIA 官方招聘网站。
 
 ## 快速入口
 
@@ -40,7 +40,7 @@ GPU · AI Performance · Profiling · Compiler · LLVM · Infrastructure · Syst
 
 ## 按技能找岗位
 
-下表为原帖中的方向建议，帮助初步定位，不代表每个岗位都要求具备整组技能。具体背景与加分项请查看岗位详情。
+下表为基于岗位内容整理的方向建议，帮助初步定位，不代表每个岗位都要求具备整组技能。具体背景与加分项请查看岗位详情。
 
 | 你的技能 / 技术方向 | 可以重点看的岗位 |
 | --- | --- |
@@ -102,20 +102,20 @@ GPU · AI Performance · Profiling · Compiler · LLVM · Infrastructure · Syst
 
 ## 投递与咨询
 
-前往 [NVIDIA Careers]({data['careers_url']})，搜索 **{r['id']}**，查看完整 JD 并投递。
+{('查看 [NVIDIA Careers 官方 JD](' + r['source_url'] + ')，了解完整要求并投递。') if r.get('source_url') else ('前往 [NVIDIA Careers](' + data['careers_url'] + ')，搜索 **' + r['id'] + '**，查看完整 JD 并投递。')}
 
 也可联系 [Echo Xu](mailto:{data['contact']['email']})（{data['contact']['email']}），邮件中注明职位 ID、所在地和技术方向。
 
 ---
 
-内容依据 [Echo Xu 的招聘帖子]({data['source_url']})及其提供的正文整理。关键词用于帮助浏览，不等于完整任职要求；岗位状态、完整要求与地点请以官网当前信息为准。
+{('内容依据 [NVIDIA Careers 官方 JD](' + r['source_url'] + ')整理。') if r.get('source_url') else ('内容依据 [Echo Xu 的招聘帖子](' + data['source_url'] + ')及其提供的正文整理。')}关键词用于帮助浏览，不等于完整任职要求；岗位状态、完整要求与地点请以官网当前信息为准。
 '''
     locations = '# 按城市找岗位\n\n[返回岗位导航](../README.md)\n\n多地点岗位会同时出现在对应城市下。\n'
     for city in ['上海', '深圳', '北京']:
         subset = [r for r in roles if city in r['locations']]
         locations += f'\n## {city}（{len(subset)} 个）\n\n'
         locations += table(subset).replace('(roles/', '(../roles/') + '\n'
-    locations += '\n地点依据原帖整理，以 NVIDIA Careers 当前信息为准。\n'
+    locations += '\n地点依据招聘帖及新增岗位的官方 JD 整理，以 NVIDIA Careers 当前信息为准。\n'
     outputs[ROOT / 'docs/locations.md'] = locations
     return outputs
 

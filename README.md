@@ -4,11 +4,11 @@
 
 GPU · AI Performance · Profiling · Compiler · LLVM · Infrastructure · System Software · Autonomous Vehicles · Solutions Architecture
 
-本仓库按技术方向整理 **10 个岗位、5 类机会**，覆盖上海、深圳和北京。你可以先按技能定位方向，再进入岗位详情了解工作内容和适合背景。
+本仓库按技术方向整理 **11 个岗位、6 类机会**，覆盖上海、深圳和北京。你可以先按技能定位方向，再进入岗位详情了解工作内容和适合背景。
 
 这些机会涉及硬件、系统软件、AI workload、编译器、自动驾驶平台和真实业务场景的交叉地带，适合希望深入技术、参与平台和系统建设的同学。
 
-> 整理日期：2026-11-24。内容来自 Echo Xu 提供的[招聘帖子](https://zhuanlan.zhihu.com/p/2102075021984280587)，属于岗位导读；岗位是否开放、完整要求与地点以 [NVIDIA Careers](https://www.nvidia.com/en-us/about-nvidia/careers/) 当前信息为准。本仓库不是 NVIDIA 官方招聘网站。
+> 整理日期：2026-11-24。内容依据 Echo Xu 提供的[招聘帖子](https://zhuanlan.zhihu.com/p/2102075021984280587)及新增岗位的 NVIDIA Careers 官方 JD 整理，属于岗位导读；岗位是否开放、完整要求与地点以 [NVIDIA Careers](https://www.nvidia.com/en-us/about-nvidia/careers/) 当前信息为准。本仓库不是 NVIDIA 官方招聘网站。
 
 ## 快速入口
 
@@ -19,13 +19,14 @@ GPU · AI Performance · Profiling · Compiler · LLVM · Infrastructure · Syst
 
 ## 按技能找岗位
 
-下表为原帖中的方向建议，帮助初步定位，不代表每个岗位都要求具备整组技能。具体背景与加分项请查看岗位详情。
+下表为基于岗位内容整理的方向建议，帮助初步定位，不代表每个岗位都要求具备整组技能。具体背景与加分项请查看岗位详情。
 
 | 你的技能 / 技术方向 | 可以重点看的岗位 |
 | --- | --- |
 | GPU / CUDA / 性能优化 | [JR2016747｜GPU Profiling Software Engineer](roles/JR2016747.md)<br>[JR2021807｜Deep Learning Performance Architect](roles/JR2021807.md)<br>[JR2027824｜System Software Architect, AI Hardware and Software Performance](roles/JR2027824.md) |
 | Compiler / LLVM / Toolchain | [JR2020326｜Deep Learning Compiler CI and Infrastructure Engineer](roles/JR2020326.md)<br>[JR2028806｜Senior LLVM Compiler Engineer](roles/JR2028806.md) |
-| CI/CD / Automation / Infrastructure | [JR2020326｜Deep Learning Compiler CI and Infrastructure Engineer](roles/JR2020326.md) |
+| CI/CD / Automation / Infrastructure | [JR2020326｜Deep Learning Compiler CI and Infrastructure Engineer](roles/JR2020326.md)<br>[JR1998048｜Senior DGX Cloud AI Infrastructure Software Engineer](roles/JR1998048.md) |
+| AI Infrastructure / 分布式系统 / 可靠性 / 可观测性 | [JR1998048｜Senior DGX Cloud AI Infrastructure Software Engineer](roles/JR1998048.md) |
 | System Software / CPU / Linux | [JR2025929｜Senior System Software Engineer, CPU](roles/JR2025929.md)<br>[JR2016747｜GPU Profiling Software Engineer](roles/JR2016747.md)<br>[JR2027824｜System Software Architect, AI Hardware and Software Performance](roles/JR2027824.md) |
 | 自动驾驶 / 感知融合 / 规划控制 | [JR2022055｜Senior Perception Fusion Engineer - Autonomous Vehicles](roles/JR2022055.md)<br>[JR2024605｜Senior Software Engineer, Planning and Control Integration – Autonomous Vehicles](roles/JR2024605.md)<br>[JR2022050｜Senior Software Engineer, Context Fusion and Multi-Vehicle Adaptation - Autonomous Vehicles](roles/JR2022050.md) |
 | Solutions Architecture / AI 行业方案 / 金融行业 | [JR2024033｜Solutions Architect - Financial Services](roles/JR2024033.md) |
@@ -48,8 +49,16 @@ GPU · AI Performance · Profiling · Compiler · LLVM · Infrastructure · Syst
 
 | 职位 ID | 岗位 | 地点 |
 | --- | --- | --- |
-| [JR2020326](roles/JR2020326.md) | Deep Learning Compiler CI and Infrastructure Engineer | 上海 / 深圳 |
 | [JR2028806](roles/JR2028806.md) | Senior LLVM Compiler Engineer | 上海 |
+
+### AI Infrastructure / CI/CD / Engineering Productivity
+
+适合对 AI 平台、分布式系统、基础设施可靠性、可观测性、CI/CD 和工程效率感兴趣的同学。
+
+| 职位 ID | 岗位 | 地点 |
+| --- | --- | --- |
+| [JR2020326](roles/JR2020326.md) | Deep Learning Compiler CI and Infrastructure Engineer | 上海 / 深圳 |
+| [JR1998048](roles/JR1998048.md) | Senior DGX Cloud AI Infrastructure Software Engineer | 上海 |
 
 ### CPU / System Software
 

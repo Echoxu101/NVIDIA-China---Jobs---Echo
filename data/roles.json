@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-11-24",
   "source_url": "https://zhuanlan.zhihu.com/p/2102075021984280587",
-  "source_note": "依据 Echo Xu 在对话中提供的原帖正文整理，未独立核验实时在招状态。",
+  "source_note": "初始岗位依据 Echo Xu 提供的招聘帖正文整理；新增岗位另附 NVIDIA Careers 官方 JD 来源。实时状态以官网为准。",
   "careers_url": "https://www.nvidia.com/en-us/about-nvidia/careers/",
   "contact": {
     "name": "Echo Xu",
@@ -17,6 +17,11 @@
       "id": "compiler",
       "name": "Compiler / LLVM / Deep Learning Compiler",
       "audience": "适合对编译器、LLVM、深度学习编译器、代码生成、编译优化、工具链基础设施感兴趣的同学。"
+    },
+    {
+      "id": "ai-infrastructure",
+      "name": "AI Infrastructure / CI/CD / Engineering Productivity",
+      "audience": "适合对 AI 平台、分布式系统、基础设施可靠性、可观测性、CI/CD 和工程效率感兴趣的同学。"
     },
     {
       "id": "system-software",
@@ -90,7 +95,7 @@
     {
       "id": "JR2020326",
       "title": "Deep Learning Compiler CI and Infrastructure Engineer",
-      "category": "compiler",
+      "category": "ai-infrastructure",
       "locations": [
         "上海",
         "深圳"
@@ -123,6 +128,26 @@
       "work": "参与 LLVM Compiler 相关开发与优化，支持 NVIDIA 软件栈中的编译器能力建设，包括编译优化、代码生成、工具链演进，以及与 AI / GPU / 加速计算平台相关的底层软件工作。",
       "background": "有扎实的 compiler 基础，熟悉 LLVM、C/C++、IR、backend、code generation 或相关工具链开发。有 GPU compiler、accelerator compiler 或 HPC 经验会是加分项。",
       "fit": "热爱 compiler，希望长期深耕底层技术。这个方向技术门槛高，长期影响力也很强。"
+    },
+    {
+      "id": "JR1998048",
+      "title": "Senior DGX Cloud AI Infrastructure Software Engineer",
+      "category": "ai-infrastructure",
+      "locations": [
+        "上海"
+      ],
+      "keywords": [
+        "AI Infrastructure",
+        "Distributed Systems",
+        "Reliability",
+        "Observability",
+        "Python",
+        "C/C++"
+      ],
+      "source_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/China-Shanghai/Senior-DGX-Cloud-AI-Infrastructure-Software-Engineer_JR1998048",
+      "work": "开发支持大规模 AI、LLM 和 GenAI 训练与推理的基础设施软件和工具，提升效率与韧性；从应用到硬件定位故障，集成可靠性相关 API，并建立可执行的可靠性指标。",
+      "background": "具备 8 年以上大规模 AI 系统软件基础设施开发经验，有分布式系统构建与扩展、训练/推理及数据基础设施经验，熟悉 Python、C/C++ 和监控日志平台（如 ELK、Prometheus、Loki）。大规模 AI 集群、NVIDIA GPU、RDMA / IB / NCCL，以及 PyTorch、TensorFlow、JAX、Ray 相关经验是加分项。",
+      "fit": "喜欢构建稳定、可扩展的 AI 平台，擅长复杂系统排障，希望通过基础设施软件改善训练与推理效率和可靠性的同学。"
     },
     {
       "id": "JR2025929",
@@ -238,7 +263,14 @@
     {
       "skillset": "CI/CD / Automation / Infrastructure",
       "role_ids": [
-        "JR2020326"
+        "JR2020326",
+        "JR1998048"
+      ]
+    },
+    {
+      "skillset": "AI Infrastructure / 分布式系统 / 可靠性 / 可观测性",
+      "role_ids": [
+        "JR1998048"
       ]
     },
     {
