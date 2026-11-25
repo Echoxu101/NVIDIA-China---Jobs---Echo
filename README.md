@@ -96,14 +96,3 @@ GPU · AI Performance · Profiling · Compiler · LLVM · Infrastructure · Syst
 
 也欢迎把仓库分享给从事大模型训练、分布式系统、性能优化、数据平台、系统软件、GPU Profiling、HPC 或 AI Infra 的朋友。
 
-## 仓库内容与维护
-
-| 路径 | 内容 |
-| --- | --- |
-| `roles/` | 每个岗位的工作内容、背景与适合人群 |
-| [docs/locations.md](docs/locations.md) | 上海 / 深圳 / 北京岗位索引 |
-| [data/roles.json](data/roles.json) | 结构化岗位数据与技能映射 |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | 如何更新岗位与提交信息更正 |
-| [docs/publish.md](docs/publish.md) | 将这套文件发布到 GitHub 的步骤 |
-
-维护时修改 `data/roles.json`，再运行 `python3 scripts/build_docs.py`，即可同步更新 README、城市索引和岗位详情。
